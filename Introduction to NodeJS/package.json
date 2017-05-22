@@ -1,0 +1,11 @@
+{
+  "name": "shopstop",
+  "version": "1.0.0",
+  "description": "NodeJs Intro HomeWork",
+  "main": "Index.js",
+  "devDependencies": {
+    "standard": "10.0.2"
+  },
+  "author": "AM",
+  "license": "ISC"
+}
