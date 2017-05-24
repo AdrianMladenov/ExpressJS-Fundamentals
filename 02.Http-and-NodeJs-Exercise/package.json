@@ -1,0 +1,11 @@
+{
+  "name": "storage",
+  "version": "0.0.1",
+  "description": "http and nodejs exercises",
+  "main": "index.js",
+  "devDependencies": {
+    "standard": "10.0.2"
+  },
+  "author": "AM",
+  "license": "MIT"
+}
