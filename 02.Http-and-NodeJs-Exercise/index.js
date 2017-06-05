@@ -40,7 +40,7 @@ console.log()
 console.log('--Testing load--')
 storage.load()
 setTimeout(() => {
-  console.log(storage.get('o ye'))
-  console.log(storage.get('quick brown fox'))
+  console.log(storage.get('o ye'))            // same
+  console.log(storage.get('quick brown fox')) // reason
   console.log(storage.get(''))
 }, 100)

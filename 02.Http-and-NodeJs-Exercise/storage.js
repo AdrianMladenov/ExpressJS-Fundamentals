@@ -37,7 +37,8 @@ let clear = () => {
 let save = () => {
   return new Promise((resolve, reject) => {
     let storageJSON = JSON.stringify(globalStorage)
-    fs.writeFile(fileName, storageJSON, err => {
+      let flag = {flag: 'w'}
+    fs.writeFile(fileName, storageJSON, flag, err => {
       if (err) {
         reject(err)
         return
